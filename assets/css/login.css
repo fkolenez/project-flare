@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    background-image: url(../img/fundo.jpeg);
+    background-color: #59238F;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (max-width: 600px ) {
+    body {
+        background-size: cover;
+    }
+}
+
+#particles-js {
+    height: 100%;
+}
+
+.loginBox {
+    margin-top: 8%;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
+    color: #18002C;
+}
+
+.user{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 3rem; /* Tamanho padrão */
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+     body{
+        background-image: none;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body{
+        background-image: none;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+h3 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #18002C;
+    text-align: center;
+}
+.loginBox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="password"],
+.loginBox input[type="number"]{
+    border-radius: 15px;
+    border: 1px solid #262626;
+    outline: none;
+    height: 40px;
+    width: 440px;
+    color: #18002C !important; 
+    background: transparent; 
+    font-size: 16px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    transition: border 0.8s ease, color 0.3s ease; 
+}
+
+.loginBox input[type="text"]:hover,
+.loginBox input[type="password"]:hover {
+    color: #18002C; /* Garante que a cor do texto permaneça preta quando o input é focado */
+    border: 1px solid #59238F;
+}
+
+.loginBox input[type="text"]:focus,
+.loginBox input[type="password"]:focus {
+    color: #18002C; /* Garante que a cor do texto permaneça preta quando o input é focado */
+}
+.inputBox {
+    position: relative;
+}
+
+.inputBox span {
+    position: absolute;
+    top: 10px;
+    color: #262626;
+}
+
+.loginBox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: #59238F;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.loginBox a{
+    margin-top: 10px;
+    color: #afafaf;    
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #550143;
+}
+
+.botaoLogin {
+    transition: box-shadow 0.3s ease, transform .2s ease;
+}
+
+.botaoLogin:hover{
+    box-shadow: 
+    rgba(71, 8, 90, 0.4) 0px 5px, 
+    rgba(240, 46, 170, 0.3) 0px 10px, 
+    rgba(240, 46, 170, 0.2) 0px 15px, 
+    rgba(240, 46, 170, 0.1) 0px 20px, 
+    rgba(240, 46, 170, 0.05) 0px 25px;
+
+    transform: translateY(-5px);
+}
+.icons {
+    padding-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fa-brands {
+    font-size: 35px;
+}
+.form-group{
+    width: 100%;
+    margin-bottom: 0% !important;
+}
