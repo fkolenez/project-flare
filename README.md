@@ -8,8 +8,6 @@ The project is a simple casino-style CRUD system, built mainly for educational p
 - Bootstrap — Frontend framework for responsive UI
 - HTML & CSS — Page structure and custom styles
 
-JavaScript (optional) — For additional interactivity (if used)
-
 ##### 🙌 Credits
 Special thanks to Emanuel (developer) and Rafael (designer) for their valuable contributions to the project.
 
